@@ -330,7 +330,7 @@ class EnemySpawner{
 	    			addRandomWarpEnemy();	
 	      		break;
 	      	case 8:
-	      			player.nextLevelKills = 60;
+	      			player.nextLevelKills = 07;
 	    			entityManager.add( new WandererEnemy());
 	    			addStriaghtMove();	
 	      		break;
@@ -935,7 +935,7 @@ class Player extends Entity {
   int killCount = 0;
   int frameUntilRespawn = 0;
 
-  int nextLevelKills = 30;
+  int nextLevelKills = 50;
 
   PVector shot_vel;
   float speed = .4;

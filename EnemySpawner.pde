@@ -41,7 +41,7 @@ class EnemySpawner{
 	    			addRandomWarpEnemy();	
 	      		break;
 	      	case 8:
-	      			player.nextLevelKills = 70;
+	      			player.nextLevelKills = 07;
 	    			entityManager.add( new WandererEnemy());
 	    			addStriaghtMove();	
 	      		break;
